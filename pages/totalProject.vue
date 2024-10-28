@@ -78,15 +78,6 @@
   }
 }
 
-/* .animate-border-glow {
-  animation: border-glow 2s infinite;
-} */
-
-/* .neon-glow {
-  box-shadow: 0 0 15px rgba(255, 255, 0, 0.5), 0 0 30px rgba(255, 255, 0, 0.5),
-    0 0 45px rgba(255, 235, 59, 0.7);
-} */
-
 .animate-bounce-slow {
   animation: bounce-slow 3s infinite;
 }
