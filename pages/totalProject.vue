@@ -57,7 +57,7 @@
 
 <script setup></script>
 
-<style>
+<style scoped>
 @keyframes bounce-slow {
   0%,
   100% {

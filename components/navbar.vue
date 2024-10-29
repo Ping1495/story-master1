@@ -28,14 +28,14 @@
             <a
               href="#"
               class="relative px-3 py-1 rounded-md transition duration-300 ease-in-out border-2 border-blue-900 hover:border-2 hover:border-yellow-400"
-              >About</a
+              >Project</a
             >
           </li>
           <li>
             <a
               href="#"
               class="relative px-3 py-1 rounded-md transition duration-300 ease-in-out border-2 border-blue-900 hover:border-2 hover:border-yellow-400"
-              >Contact</a
+              >Article</a
             >
           </li>
           <li>
