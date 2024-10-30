@@ -2,7 +2,7 @@
   <div
     class="bg-gradient-to-b from-blue-900 to-blue-800 min-h-screen p-8 flex justify-center"
   >
-    <div class="w-10/12 lg:w-10/12 xl:w-9/12">
+    <div class="w-11/12">
       <!-- Header -->
       <div
         class="text-center text-5xl mb-12 text-yellow-400 font-extrabold tracking-wide underline decoration-yellow-400 decoration-4 underline-offset-4"
@@ -11,10 +11,10 @@
       </div>
 
       <div class="shadow-lg rounded-2xl p-6 background-image">
-        <div class="grid grid-cols-6 gap-6">
+        <div class="grid sm:grid-cols-6 grid-cols-1 gap-6">
           <!-- Title and Author -->
           <div
-            class="sm:col-span-2 border border-blue-900 p-6 rounded-xl bg-gradient-to-b from-blue-900 to-blue-800 shadow-md"
+            class="sm:col-span-2 col-span-1 border border-blue-900 p-6 rounded-xl bg-gradient-to-b from-blue-900 to-blue-800 shadow-md"
           >
             <div class="pb-4">
               <label
@@ -44,7 +44,7 @@
 
           <!-- Premise -->
           <div
-            class="sm:col-span-4 border border-blue-900 p-6 rounded-xl bg-gradient-to-b from-blue-900 to-blue-800 shadow-md"
+            class="sm:col-span-4 col-span-1 border border-blue-900 p-6 rounded-xl bg-gradient-to-b from-blue-900 to-blue-800 shadow-md"
           >
             <label
               for="premise"
@@ -60,7 +60,7 @@
 
           <!-- Main Genre -->
           <div
-            class="sm:col-span-2 border border-blue-900 p-6 rounded-xl bg-gradient-to-b from-blue-900 to-blue-800 shadow-md"
+            class="sm:col-span-2 col-span-1 grid grid-cols-1 border border-blue-900 p-6 rounded-xl bg-gradient-to-b from-blue-900 to-blue-800 shadow-md"
           >
             <div class="pb-4">
               <label
@@ -183,13 +183,13 @@
         <!-- Submit Buttons -->
         <div class="flex justify-end mt-8">
           <button
-            class="bg-blue-800 text-yellow-400 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105 active:scale-95"
+            class="text-white bg-gradient-to-r from-blue-500 to-blue-700 font-semibold py-3 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-800 transition duration-200 transform hover:scale-105 active:scale-95"
             @click="saveStory"
           >
             Save Story
           </button>
           <button
-            class="bg-blue-800 text-yellow-400 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105 active:scale-95 ml-4"
+            class="text-white bg-gradient-to-r from-orange-500 to-orange-700 font-semibold py-3 px-6 rounded-full shadow-lg hover:shadow-xl hover:from-orange-600 hover:to-orange-800 transition duration-200 transform hover:scale-105 active:scale-95 ml-4"
             @click="nextStep"
           >
             Next Step
