@@ -1,4 +1,5 @@
 <template>
+  <!-- Character Profiles -->
   <div></div>
 </template>
 
